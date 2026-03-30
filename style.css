@@ -81,34 +81,44 @@ img { max-width: 100%; display: block; }
 .nav a:hover,
 .nav a.active { color: var(--dorado); }
 
-/* --- Hero con imagen de fondo y overlay --- */
+/* --- Hero con imagen de fondo y overlay (CORREGIDO) --- */
 .hero {
   margin-top: 60px;
   height: 50vh;
   min-height: 300px;
-  background: url('../img/hero.jpeg') center/cover no-repeat;
+  background: url('img/fondoquienessomos.jpg') center/cover no-repeat;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero::after {
+/* Overlay oscuro correctamente posicionado */
+.hero::before {
   content: '';
   position: absolute;
   inset: 0;
   background: rgba(46, 21, 32, 0.6);
+  z-index: 0;
 }
 
+/* Contenedor del texto */
 .hero-overlay {
   position: relative;
   z-index: 1;
   text-align: center;
   color: var(--crema);
+  padding: 0 20px;
 }
 
-.hero-title { font-size: 3rem; letter-spacing: 2px; }
+/* Título */
+.hero-title {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
 
+/* Subtítulo */
 .hero-subtitle {
   font-size: 1.2rem;
   color: var(--dorado);
