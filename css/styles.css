@@ -307,15 +307,14 @@ img { max-width: 100%; display: block; }
 /* FIN seccion de Angel */
 
 
-/* ============================================================
-   INTEGRANTE 10: VIANEY (Vianey Lopez Lopez)
-   Branch: feature/quienes-somos-vianey
+/* ============================================================ */
+ VIANEY (Vianey Lopez López)
+   Branch: eyvian_feature
    Tarea: Media queries para que la pagina se vea bien en:
           - Tablet (max-width: 768px): grids a 2 o 1 columna
           - Movil (max-width: 480px): todo a 1 columna
-          Tambien revisa que la consola de Chrome no tenga errores.
-          Esto es OBLIGATORIO para cumplir la rubrica de responsive.
-   Commit: "style: agrega responsive para tablet y movil"
+   Revise que la consola de Chrome no tenga errores.
+          
    ============================================================ */
 
 /* --- Tablet (768px) --- */
@@ -347,4 +346,4 @@ img { max-width: 100%; display: block; }
   }
 }
 
-/* FIN seccion de Vianey */
+
