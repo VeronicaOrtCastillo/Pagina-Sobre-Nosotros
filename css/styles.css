@@ -307,16 +307,17 @@ img { max-width: 100%; display: block; }
 /* FIN seccion de Angel */
 
 
-/* ============================================================ */
- VIANEY (Vianey Lopez López)
+/* ============================================================
+     VIANEY (Vianey López López)
    Branch: eyvian_feature
-   Tarea: Media queries para que la pagina se vea bien en:
+   Tarea: Media queries para que la página se vea bien en:
           - Tablet (max-width: 768px): grids a 2 o 1 columna
           - Movil (max-width: 480px): todo a 1 columna
-   Revise que la consola de Chrome no tenga errores.
+          Se reviso que la consola de Chrome no tenga errores.
           
+  
    ============================================================ */
-
+   
 /* --- Tablet (768px) --- */
 @media (max-width: 768px) {
   .hero-title { font-size: 2rem; }
@@ -337,6 +338,7 @@ img { max-width: 100%; display: block; }
   .section-title { font-size: 1.5rem; }
   .team-img-wrap { width: 80px; height: 80px; }
 }
+
 
 /* --- Accesibilidad: reduce movimiento si el usuario lo prefiere --- */
 @media (prefers-reduced-motion: reduce) {
